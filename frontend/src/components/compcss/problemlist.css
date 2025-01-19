@@ -1,0 +1,181 @@
+/* src/components/ProblemList.css */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@100..900&display=swap');
+.fullproblem {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height:100%;
+  /* overflow: auto; */
+}
+.undernav{
+    background-color:rgb(2, 38, 39) ;
+    border-radius:30px;
+    height:1000px;
+    width:95.5%;   
+    overflow:auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* .problem-list-container {
+  background-color: rgb(2, 38, 39);
+  border-radius: 30px;
+  height: 300px;
+  width: 95.5%;
+  padding: 20px; /* Added padding for better spacing */
+
+
+.inner-container {
+  display: flex; /* Align search and selectdifficult side by side */
+  align-items: center; /* Vertically align the items */
+  justify-content: space-between; /* Add space between search and select */
+  margin-top: 10px; /* Optional: Spacing between h2 and inputs */
+}
+
+.search {
+  flex: 1; /* Allow search bar to take up more space */
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px; /* Space between search bar and select */
+}
+
+.selectdifficult select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.problem-list-container{    
+  background-color: rgb(2, 38, 39);
+  border-radius: 30px;
+  padding-left: 515px;
+  padding-right: 515px;
+  height:300px;
+  width:95.5%;
+  border:none;
+  margin-top:30px;
+  margin-bottom:30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.problem-list-container h2 {
+  font-family: "Anton",sans-serif;
+  font-size:60px;
+  text-align: center;
+  margin-bottom: 20px;
+  color:white;
+  letter-spacing: 4px;
+}
+
+.problem-list-container input {
+  font-size: 20px;
+  background-color: white;
+  width: 30%;
+  height:40px;
+  padding: 7px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-left:30px;
+  border:none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.problem-list {
+  padding:40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height:50%;
+}
+.problemfulldetails{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  gap:50px;
+}
+.alltagsshow{
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+  font-size:20px;
+  color:black;
+  overflow: auto;
+  /* align-items: center; */
+}
+.problem-item {
+  
+  height:78px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width:18%;
+  font-size: 20px;
+  color:black;
+  background-color:white;
+  padding-left: 20px;
+  /* padding-top:10px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: inline;
+  /* box-sizing: border-box; */
+}
+.singletagshow{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color:white;
+  border-radius: 20px;
+  display: inline;
+  padding-left:20px;
+  padding-right:20px;
+  
+  /* padding-top:5px; */
+  height:78px;
+  text-align: center;
+  /* padding-bottom:40px; */
+}
+.deletelogo img{
+  height:70px;
+  /* padding-top:10px; */
+  cursor:pointer;
+}
+.deletelogo,.updatebutton{
+  background-color: transparent;
+  border: none;
+  font-size:20px;
+  color:white;
+  cursor:pointer;
+}
+.selectdifficult{
+  /* margin-top:50px; */
+  margin-bottom:30px;
+}
+.selectdifficult select{
+  height:50px;
+  width:130px;
+  font-size:24px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.difficultydiv{
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color:white;
+  border-radius: 20px;
+  width:120px;
+  display: inline;
+  padding-left:20px;
+  padding-right:20px;
+  height:78px;
+  text-align: center;
+  font-size: 20px;
+}

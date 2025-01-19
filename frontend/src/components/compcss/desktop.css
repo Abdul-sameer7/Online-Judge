@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap");
+/* body {
+  margin: 50;
+  line-height: normal;
+} */
+.desktop-6 {
+  /* fonts */
+  --font-anton: Anton;
+
+  /* Colors */
+  --color-midnightblue: rgb(2, 38, 39);
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-146xl: 165px;
+  --padding-63xl: 82px;
+}
+.profile {
+  height:40px;
+  width:40px;
+  position: absolute;
+  left:88%;
+  top:30px;
+}
+.desktop-6 h1{
+  position:absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:30px;
+  z-index:100;
+  left:91%;
+  top:15px;
+}
+.desktop-6-child {
+  height: 418px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-midnightblue);
+  display: none;
+  max-width: 100%;
+}
+.image-23-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 146px;
+  max-height: 100%;
+  width: 479px;
+  object-fit: cover;
+  z-index: 1;
+}
+.welcome-to-the {
+  margin: 0;
+  font-size: 100px;
+}
+.welcome-to-the-container1 {
+  width: 100%;
+}
+.welcome-to-the-container {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  letter-spacing: 0.04em;
+  line-height: 90%;
+  display: flex;
+  align-items: center;
+  width: 742px;
+  height: 270px;
+  z-index: 2;
+}
+.image-23-parent {
+  height: 398px;
+  width: 742px;
+  position: relative;
+  max-width: 100%;
+}
+.desktop-6 {
+  width: 100%;
+  height: 360px;
+  background-color: var(--color-midnightblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 150px;
+  color: #fff;
+  font-family: var(--font-anton);
+}
+@media screen and (max-width: 1200px) {
+  .desktop-6 {
+    padding-left: var(--padding-146xl);
+    padding-right: var(--padding-146xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .welcome-to-the-container {
+    font-size: 60px;
+    line-height: 81px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .desktop-6 {
+    padding-left: var(--padding-63xl);
+    padding-right: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-to-the-container {
+    font-size: 37px;
+    line-height: 54px;
+  }
+  .desktop-6 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .welcome-to-the {
+    font-size: 90px;
+  }
+}

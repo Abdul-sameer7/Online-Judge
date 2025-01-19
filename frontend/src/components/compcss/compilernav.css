@@ -1,0 +1,57 @@
+.compilernav{
+    margin-bottom:0px;
+    height:10%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    background-color: rgb(2, 38, 39);
+}
+.homebutton{
+    margin-top:12px;
+    height:50px;
+    width:100px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #EFFFFD;
+    box-shadow: 2px 2px 5px 4px rgb(60, 241, 226);
+    cursor:pointer;
+    border:none;
+}
+.homebutton:hover{
+    color:white;
+    background-color:rgb(9, 65, 67);
+}
+.runbutton{
+    background-color: #EFFFFD;
+    height:50px;
+    width:100px;
+    cursor:pointer;
+    font-size:25px;
+    border-radius:10px;
+    margin-top:10px;
+    border:none;
+    box-shadow: 2px 2px 5px 4px rgb(60, 241, 226);
+
+}
+.runbutton:hover{
+    background-color: rgb(9, 65, 67);
+    color:white;
+}
+.selectlang{
+    box-shadow: 2px 2px 5px 4px rgb(60, 241, 226);
+    margin-top:12px;
+    height:50px;
+    width:100px;
+    border-radius: 10px;
+    font-size:24px;
+    padding-left:20px;
+    background-color: #EFFFFD;
+    cursor:pointer;
+    border:none;
+}
+.selectlang:hover{
+    color:white;
+    background-color: rgb(9, 65, 67);
+}

@@ -1,0 +1,165 @@
+.fullpageproblemcompiler {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 65, 67);
+    overflow-y:hidden;
+  }
+  .problemandcompiler {
+    width: 100%;
+    height: 90%;
+    display: flex;
+  }
+  .problemdetails {
+    margin-bottom:20px;
+    padding: 30px;
+    height: 90vh;
+    width: 40%;
+    resize: horizontal;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px 4px rgb(60, 241, 226);
+  }
+  .compilerandoutput {
+    margin-top: 20px;
+    width: 60%;
+    flex-grow: 1;
+    background-color: rgb(9, 65, 67);
+    margin-left: 30px;
+    margin-right: 50px;
+  }
+  .compileralone {
+    padding: 30px;
+    font-size: 20px;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 53%;
+    border-radius: 30px;
+    resize: none;
+  
+    width: 95%;
+    background-color: white;
+    box-shadow: 2px 2px 10px 4px rgb(60, 241, 226);
+    border: none;
+  }
+  .submitbutton {
+    position: absolute;
+    background-color: #effffd;
+    height: 50px;
+  
+    width: 100px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 28px;
+    margin-left: 70%;
+    border: none;
+    box-shadow: 2px 2px 5px 4px rgb(60, 241, 226);
+  }
+  .submitbutton:hover {
+    background-color: rgb(9, 65, 67);
+    color: white;
+  }
+  .problemdetails h2 {
+    font-size: 35px;
+  }
+  .problemdetails p {
+    font-size: 25px;
+  }
+  .viewset {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .viewset button {
+    font-size: 24px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    color: black;
+  }
+  .viewset button:hover {
+    background-color: rgb(37, 131, 135);
+    color: white;
+  }
+  .viewset button:focus {
+    background-color: #effffd;
+    color: black;
+  }
+  .viewbox {
+    height: 22.5%;
+    width: 97%;
+    flex-grow: 1;
+    resize: none;
+    /* flex-grow: 1; */
+  }
+  .inputview {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    height: 90%;
+    width: 100%;
+    border-radius: 30px;
+    background-color: white;
+    resize: none;
+    /* flex-grow: 1; */
+    overflow: auto;
+    box-shadow: 2px 2px 10px 4px rgb(60, 241, 226);
+  }
+  
+  .testcaseresult{
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+    z-index:100;
+  }
+  .passestc{
+    background-color: green;
+    height:20px;
+    width:100px;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .failedtc{
+    background-color: red;
+    height:20px;
+    width:100px;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  pre {
+    font-size: 20px;
+    white-space: pre-wrap; /* Ensure that newlines and white spaces are preserved */
+    word-wrap: break-word; /* Break long words to prevent overflow */
+  }
+  @media only screen and (max-width: 1200px) {
+    .submitbutton {
+      margin-top:10px;
+      height:50px;
+      border-radius: 10px;
+      width:100px;
+      position: absolute;
+      margin-left: 10%;
+    }
+    .viewset button  {
+      height:50px;
+      width:100px;
+    }
+    .compileralone{
+      margin-right:20px;
+      width:90%;
+    }
+  }

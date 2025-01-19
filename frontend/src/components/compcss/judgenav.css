@@ -1,0 +1,79 @@
+.compilernav{
+    margin-bottom:0px;
+    height:10%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    background-color: rgb(2, 38, 39);
+}
+.homebutton{
+    margin-top:12px;
+    height:60px;
+    width:130px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: #EFFFFD;
+    box-shadow: 2px 2px 24px 4px rgb(117, 214, 244);
+    cursor:pointer;
+    border:none;
+}
+.homebutton:hover{
+    color:white;
+    background-color:#448EF6;
+}
+.runbutton{
+    z-index:1;
+    background-color: #EFFFFD;
+    height:60px;
+    width:130px;
+    cursor:pointer;
+    font-size:25px;
+    border-radius: 20px;
+    margin-top:10px;
+    border:none;
+    box-shadow: 2px 2px 24px 4px rgb(117, 214, 244);
+
+}
+.runbutton:hover{
+    background-color:#448EF6;
+    color:white;
+}
+.selectlang{
+    box-shadow: 2px 2px 24px 4px rgb(117, 214, 244);
+    margin-top:12px;
+    height:60px;
+    width:130px;
+    border-radius: 20px;
+    font-size:24px;
+    padding-left:20px;
+    background-color: #EFFFFD;
+    cursor:pointer;
+    border:none;
+}
+.selectlang:hover{
+    color:white;
+    background-color: #448EF6;
+}
+@media only screen and (min-width:900px){
+    .homephoto{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:900px){
+    .homebutton{
+        visibility: hidden;
+    }
+    .homephoto{
+        margin-left:40%;
+        visibility: visible;
+        cursor:pointer;
+        height:50px;
+        width:50px;
+    }
+    .runbutton,.homebutton,.selectlang{
+        height:50px;
+        width:100px;
+    }
+}

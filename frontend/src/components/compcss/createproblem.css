@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@100..900&display=swap");
+.form-container textarea {
+  resize:none;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.form-container {
+  width: 80%;
+  height: 150%;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 20px;
+  background-color: rgb(2, 38, 39);
+  box-shadow: 4px 4px 20px 4px rgb(60, 241, 226);
+  border-radius: 20px;
+}
+.heading {
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form {
+  height: 80%;
+}
+
+.form-group {
+  color:#092635;
+  margin-left: 14%;
+  margin-bottom: 15px;
+  width: 70%;
+  /* text-align: center; */
+}
+
+.form-group label {
+    color:white;
+  display: block;
+  margin-bottom: 5px;
+  /* text-decoration:underline 2px; */
+  font-size: 25px;
+  text-decoration:double;
+  /* font-family: "Anton", sans-serif; */
+  letter-spacing: 1px;
+  /* text-align: center; */
+}
+.individualtag{
+ 
+  margin-left:10px;
+  background-color: white;
+  height:35px;
+  font-size:20px;
+  border-radius: 6px;
+  border:none;
+}
+.textarea{
+  border: none;
+  border-radius: 10px;
+  
+}
+.test-cases-container{
+  display:flex;
+  overflow-y: auto;
+  gap:20px;
+}
+.addtestcasebutton{
+  margin-left:45%;
+  height:40px;
+  width:150px;
+  font-size:20px;
+  color: white;
+  background-color: rgb(22, 112, 115);
+  cursor:pointer;
+  border-radius: 6px;
+  border:none;
+}
+.taglabel{
+  color: white;
+  margin-left:50%;
+  margin-top:20px;
+  font-size: 25px;
+}
+.addtagbutton{
+  margin-top:20px;
+  height:40px;
+  width:100px;
+  font-size:18px;
+  margin-left:45%;
+  background-color: rgb(22, 112, 115);
+  cursor:pointer;
+  color: white;
+  border-radius: 6px;
+  border:none;
+}
+.testcaselabel{
+  color:white;
+  font-size:25px;
+  margin-left:45%;
+}
+.alltags{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  /* resize: vertical; */
+  height: 100px;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.input {
+  width: 39%;
+  border-radius: 5px;
+  /* resize: vertical; */
+  height: 80px;
+}
+.test-cases-container {
+  font-size: 20px;
+  margin-left: 14%;
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 15px;
+}
+.test-cases-container label{
+    color:white;
+    font-size:20px;
+    /* text-decoration:underline 2px; */
+}
+.test-case {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 10px;
+}
+
+.test-case input {
+  flex: 1;
+}
+
+.button-container {
+  text-align: center;
+}
+.buttondiv {
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.button-container {
+  height:60px;
+  width:220px;
+  margin-top: 80px;
+  padding: 10px 20px;
+  background-color: rgb(22, 112, 115);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.button-container:hover {
+  background-color: #439a97;
+  color: black;
+}
+.addtestcasebutton:hover,.removebutton:hover,.addtagbutton:hover{
+  background-color: #439a97;
+  color: black;
+}
+.removebutton{
+  font-size:18px;
+  height:30px;
+  width:25%;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  border:none;
+  margin-left: 10px;
+  margin-top:10px;
+}
+.textarea{
+  font-size:30px;
+}
+.form-group input{
+  height:30px;
+  font-size:20px;
+}
+.individualtestcase textarea{
+  font-size:20px;
+  border:none;
+  border-radius:10px;
+}
+.selectdifficult1{
+  margin-top:30px;
+  position: relative;
+  left:47%;
+  
+}
+.selectdifficult1 select{
+  height:40px;
+  width:120px;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
